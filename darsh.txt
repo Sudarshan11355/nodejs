@@ -8,41 +8,58 @@ npm -v
   inside our folder we make public folder and inside that public folder we make darsh.html 
   we also make server.js file separately inside the Exam folder
 
-  <!-- public/index.html -->
-<!DOCTYPE html>
+
+   <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>About Darsh</title>
   <style>
     body {
-      background-color: #f0f8ff;
+      background-color: #e6f2ff;
       color: #333;
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
       padding: 40px;
     }
 
     .container {
       background-color: #ffffff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      max-width: 600px;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 700px;
       margin: auto;
+      border-left: 6px solid #0077cc;
     }
 
     h1 {
       color: #0077cc;
+      margin-bottom: 20px;
+      font-size: 28px;
     }
 
-    p {
-      font-size: 18px;
+    h2 {
+      color: #005999;
+      margin-top: 30px;
+      font-size: 22px;
+    }
+
+    p, li {
+      font-size: 17px;
       line-height: 1.6;
+      margin: 12px 0;
     }
 
     .highlight {
-      color: #ff6600;
+      color: #d35400;
       font-weight: bold;
+      background-color: #fcecdc;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    ul {
+      padding-left: 20px;
     }
   </style>
 </head>
@@ -52,9 +69,31 @@ npm -v
     <p>My name is <span class="highlight">Darsh</span>.</p>
     <p>I am a <span class="highlight">third year Information Technology</span> student.</p>
     <p>My CGPA is <span class="highlight">9.8</span>.</p>
+
+    <h2>Achievements</h2>
+    <ul>
+      <li>Won 1st place in inter-college coding competition.</li>
+      <li>Developed a weather app using JavaScript and APIs.</li>
+      <li>Completed Google Cloud Certification in 2024.</li>
+    </ul>
+
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming Languages: Python, Java, C++</li>
+      <li>Web Development: HTML, CSS, JavaScript</li>
+      <li>Tools: Git, VS Code, Linux</li>
+    </ul>
+
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Reading tech blogs and articles</li>
+      <li>Playing chess</li>
+      <li>Photography and editing</li>
+    </ul>
   </div>
 </body>
 </html>
+
 
     This is Darsh.html file
 
